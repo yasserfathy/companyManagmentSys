@@ -5,6 +5,8 @@
  */
 package com.managment.system.SBBST;
 
+import com.managment.system.model.Employees;
+
 /**
  *
  * @author yasser
@@ -14,6 +16,7 @@ public class SBBSTNode {
     SBBSTNode left, right;
     int data;
     int height;
+    Employees employee;
 
     /* Constructor */
     public SBBSTNode() {
@@ -30,4 +33,46 @@ public class SBBSTNode {
         data = n;
         height = 0;
     }
+
+    public SBBSTNode getLeft() {
+        return left;
+    }
+
+    public void setLeft(SBBSTNode left) {
+        this.left = left;
+    }
+
+    public SBBSTNode getRight() {
+        return right;
+    }
+
+    public void setRight(SBBSTNode right) {
+        this.right = right;
+    }
+
+    public int getData() {
+        return data;
+    }
+
+    public void setData(int data) {
+        this.data = data;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
+    public void setHeight(int height) {
+        this.height = height;
+    }
+
+    public Employees getEmployee() {
+        return employee;
+    }
+
+    public void setEmployee(Employees employee) {
+        this.employee = employee;
+    }
+    
+    
 }
