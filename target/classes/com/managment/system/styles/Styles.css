@@ -1,0 +1,12 @@
+.button{
+    -fx-background-color: #92dce5;
+    -fx-font-size: 15px;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+.label{
+    -fx-background-color: #92dce5;
+    -fx-font-size: 15px;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
